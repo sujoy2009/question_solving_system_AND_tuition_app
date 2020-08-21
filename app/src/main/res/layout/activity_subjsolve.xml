@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".subjsolve">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="Select subject you want to solve"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/ph"
+
+            android:layout_marginRight="22dp"
+
+
+            android:layout_gravity="left"
+            android:scaleType="fitXY"
+            android:id="@+id/physolve"/>
+
+        <ImageButton
+            android:id="@+id/chemsolve"
+            android:layout_width="170dp"
+
+            android:layout_height="170dp"
+
+
+            android:layout_gravity="end"
+            android:scaleType="fitXY"
+            android:src="@drawable/ch" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/mathsolve"
+            android:layout_width="170dp"
+
+            android:layout_height="170dp"
+
+
+            android:layout_marginRight="22dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/mt"
+            android:text="Math" />
+
+        <ImageButton
+            android:layout_width="170dp"
+
+            android:layout_height="170dp"
+            android:src="@drawable/ict"
+
+            android:layout_gravity="right"
+            android:scaleType="fitXY"
+            android:text="ICT"
+            android:id="@+id/ictsolve"/>
+
+
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6053745747833573/5088061298">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</LinearLayout>

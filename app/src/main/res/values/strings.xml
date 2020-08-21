@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">problemsolve</string>
+
+    <string name="txtCredits"><a href="https://www.facebook.com/sujoy.kar.3511">Fb link of Sujoy kar </a></string>
+    <string name="vpnlink"><a href="https://play.google.com/store/apps/details?id=com.northghost.touchvpn">Download VPN </a></string>
+
+
+    <array name="loc">
+        <item>Bogura</item>
+        <item>Bandorbon</item>
+        <item>Chattogram</item>
+        <item>Cox.s_Bazar</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gopalgonj</item>
+        <item>Gazipur</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Narayanganj</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+    </array>
+
+</resources>

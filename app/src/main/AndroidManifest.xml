@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.education.problemsolve">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/i2"
+        android:label="Student"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity android:name=".resultshow" />
+        <activity
+            android:name=".results"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".location" />
+        <activity android:name=".detail" />
+        <activity android:name=".save" />
+        <activity android:name=".tution" />
+        <activity android:name=".memb" />
+        <activity
+            android:name=".zoomer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".test" />
+        <activity android:name=".solving" />
+        <activity
+            android:name=".image2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".subjsolve"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".search"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".image"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".chooser" />
+        <activity
+            android:name=".selectques"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".welcome"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6053745747833573~6309094886" />
+    </application>
+
+</manifest>

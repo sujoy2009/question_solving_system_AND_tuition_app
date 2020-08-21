@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".save">
+    <EditText
+        android:id="@+id/nameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+
+
+        android:textStyle="italic"
+        android:layout_weight="1"
+        android:paddingLeft="7dp"
+        android:textColorHint="#551212"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit"
+        android:hint="  Enter name:"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/uniid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#551212"
+        android:textSize="20dp"
+        android:paddingLeft="7dp"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edit"
+        android:hint="  Enter  educational background"
+        android:inputType="textMultiLine"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+
+    <EditText
+        android:id="@+id/subid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="1"
+        android:focusableInTouchMode="true"
+        android:textColorHint="#551212"
+        android:textStyle="italic"
+        android:paddingLeft="5dp"
+
+        android:textSize="20dp"
+        android:layout_marginBottom="7dp"
+
+        android:hint="  Subject you want to teach:"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+android:background="@drawable/edit"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/contactid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="7dp"
+        android:layout_weight="1"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="#551212"
+        android:textSize="20dp"
+
+
+        android:background="@drawable/edit"
+
+        android:hint=" Enter contact number:"
+        android:inputType="number"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+    <EditText
+        android:id="@+id/salaryid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textColorHint="#551212"
+        android:paddingLeft="7dp"
+        android:textSize="20dp"
+        android:background="@drawable/edit"
+        android:ems="10"
+        android:layout_weight="1"
+        android:textStyle="italic"
+
+
+        android:hint="  Approximate salary demand:"
+        android:inputType="textMultiLine"
+
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+
+        android:textStyle="bold"
+        android:text="Choose Location from below:"/>
+    <Spinner
+        android:id="@+id/locationid"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+
+        android:spinnerMode="dropdown"
+
+        android:entries="@array/loc"
+        android:layout_gravity="center"
+        android:backgroundTint="#ff22"
+
+        android:layout_marginBottom="5dp"
+
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+
+        android:id="@+id/saveitid"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>

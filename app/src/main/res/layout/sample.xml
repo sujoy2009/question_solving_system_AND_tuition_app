@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nm2id"
+        android:text="name:sujoy"
+        android:textStyle="italic"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc2id"
+        android:textStyle="italic"
+        android:text="Location:khulna"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cn2id"
+        android:textStyle="italic"
+        android:text="number:01711308827"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sal2id"
+        android:text=""
+        android:textStyle="italic"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/var2id"
+        android:textStyle="italic"
+        android:text="var:mbbs"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:id="@+id/sub2id"
+        android:text="Details:city_medical"
+        android:layout_marginBottom="30sp"
+        android:textSize="20sp"
+        android:textColor="#2C2727"
+
+        />
+
+
+</LinearLayout>
